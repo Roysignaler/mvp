@@ -1,0 +1,87 @@
+.main {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: "Courier New", Courier, monospace;
+  margin-left: 10%;
+  color: #CFE5EF;
+
+}
+
+.box {
+  background-color: rgba(144, 0, 16, 0.8);
+  background-blend-mode: soft-light;
+  text-align: center;
+  border-radius: 35px;
+  padding: 1rem;
+  min-width: 45vh;
+
+
+}
+
+.footer {
+  display: flex;
+  padding: 2rem 0;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+}
+
+.image {
+  width: 70%;
+  height: 50%;
+  margin-left: 5%;
+  min-width: 50vh;
+  max-width: 100vh;
+  padding: 2rem;
+  margin-right: 18px;
+}
+
+.title {
+  font-size: 2rem;
+  margin: 2rem 0;
+  margin: 30px;
+}
+
+.description {
+  line-height: 1;
+  margin: 2rem 0;
+  font-size: 1.2rem;
+  margin: 30px;
+
+}
+
+.button {
+  border-radius: 20px;
+  background-color: rgba(247, 158, 27, 255);
+  border: none;
+  color: #000000;
+  font-size: 20px;
+  padding: 20px;
+  width: 200px;
+  cursor: pointer;
+  margin-bottom: 2%;
+  font-weight: bold;
+}
+
+@media (max-width: 1000px) {
+  .main {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.background {
+
+  background: url('../public/JyskParkBackgroundImage.png') no-repeat fixed;
+  height: 100vh;
+  overflow: hidden;
+  background-color: rgba(144, 0, 16, 0.7);
+  background-blend-mode: soft-light;
+  background-size: cover;
+  background-attachment: initial;
+}
