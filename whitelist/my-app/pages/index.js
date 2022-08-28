@@ -192,7 +192,7 @@ export default function Home() {
   return (
     <div className={styles.background}>
       <Head>
-        <title>Theis NFT Invitation</title>
+        <title>Simba NFT Invitation</title>
         <meta name="description" content="Whitelist-Dapp" />
         <link rel="icon" href="/BamCityLogo.png" />
       </Head >
